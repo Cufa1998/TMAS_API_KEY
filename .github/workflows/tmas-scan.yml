@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          path: TMAS_API_KEY
+          path: Cufa1998
 
 
       - name: Download TMAS and Scan Repo for Open Source Vulnerabilities and Secrets
@@ -21,7 +21,7 @@ jobs:
           vulnerabilitiesScan: true
           malwareScan: false # Malware scanning is only available for container images at this time
           secretsScan: true
-          artifact: dir:./TMAS_API_KEY
+          artifact: dir:./Cufa1998
 
           additionalArgs: --region=eu-central-1
           tmasApiKey: ${{ secrets.TMAS_API_KEY }}
