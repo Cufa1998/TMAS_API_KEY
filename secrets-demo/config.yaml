@@ -1,0 +1,11 @@
+# DEMO TMAS - valores FALSOS generados al azar.
+database:
+  host: db.internal.example.com
+  user: admin
+  password: "6F3sLn8hduNtSCAX0UJR"
+smtp:
+  host: smtp.example.com
+  username: notifier
+  password: "aScoJq8qlaDBCLeiUYdwx1iA"
+api:
+  secret_key: "bJbK8ySR7veIx8NQRXAEKraKeH7k0YEd"
